@@ -317,3 +317,52 @@ a {
   font-weight: 400;
   line-height: 1.75;
 }
+
+/* ===================================================== about ========================================================== */
+
+.about {
+  padding: 85px 0px 206px;
+  margin-top: 85px;
+  background-color: rgb(255, 255, 255);
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__media {
+  width: 49%;
+}
+
+.about-content {
+  width: 40%;
+}
+
+.about__img {
+  position: relative;
+}
+.about__img--big {
+  display: flex;
+  object-fit: cover;
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  /* background: url(<path-to-image>) lightgray -1.5px 0px / 108.398% 100% no-repeat; */
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.07);
+}
+
+.about__img--small {
+  object-fit: cover;
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+  position: absolute;
+  top: 121px;
+  left: 238px;
+}
+
+.about-content__btn {
+  margin-top: 38px;
+}
