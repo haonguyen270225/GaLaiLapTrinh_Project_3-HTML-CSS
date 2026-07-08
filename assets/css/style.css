@@ -455,3 +455,48 @@ a {
 .team__control {
   margin-top: 38px;
 }
+
+/* ===================================================== install mobile ========================================================== */
+
+.install__inner {
+  margin: 180px 0px 85px;
+  display: flex;
+  position: relative;
+  border-radius: 4px;
+  background: #2e80ce;
+  height: 427px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.install__img {
+  position: absolute;
+  bottom: 0px;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install__heading {
+  max-width: 489px;
+  color: #fff;
+}
+
+.install__desc {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+}
+
+.install__row {
+  margin-top: 38px;
+  display: flex;
+  column-gap: 28px;
+  align-items: center;
+}
